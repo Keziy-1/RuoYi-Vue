@@ -1,3 +1,12 @@
+## 项目说明
+本仓库Fork自开源项目RuoYi-Vue（yangzongzhuan/RuoYi-Vue）（特别感谢作者为爱发电）。
+本仓库用于软件测试学习实践，RuoYi-Vue作为被测后台系统。
+本人产出内容：功能测试点分析文档、测试用例、缺陷记录台账、迭代测试报告，归档至 test-case、test-report 目录；
+接口测试实践：采用 Postman 完成单接口调试、鉴权处理、接口关联与串联场景验证；使用 JMeter 开展接口基础并发压测实践；
+自动化资产：基于 Python requests+pytest 开发接口回归自动化脚本，存放于 auto-script 目录，用于版本迭代快速回归；
+辅助调试：使用 Fiddler 抓包协助定位前后端交互缺陷；
+流程管理：通过禅道完成测试用例维护、缺陷生命周期管理，所有文档同步 Git 留存归档；熟悉 Jira 敏捷项目管理工具基础操作。
+未对原有业务框架进行开发与修改。
 <p align="center">
 	<img alt="logo" src="https://oscimg.oschina.net/oscnet/up-d3d0a9303e11d522a06cd263f3079027715.png">
 </p>
