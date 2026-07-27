@@ -1,0 +1,18 @@
+# RuoYi-Vue pytest 接口自动化最小依赖清单
+# Python 3.9.x 验证通过
+# 安装命令：
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# -------------------- 核心运行库 --------------------
+# 测试框架：用例发现、fixture、参数化
+pytest==7.4.4
+# HTTP 请求库：Session 复用、超时管理
+requests==2.31.0
+# HTML 报告：生成单文件独立报告（pytest --html 触发）
+pytest-html==4.0.2
+
+# -------------------- 辅助增强库（可选，按需启用）--------------------
+# pytest 用例失败自动重跑：--reruns 1
+pytest-rerunfailures==12.0
+# 中文日志输出无乱码；若 requests 2.31.0 已传递则可不显式指定
+charset-normalizer==3.3.2
